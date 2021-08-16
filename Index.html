@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <!--<script src="Myscript.js"></script> -->
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="backgroundCalculator">
+        <div class="calc">
+            <div class="screen1">
+                <input class="text" value=0 id="screen">
+                <span class="previousOperation"><p>146565</p></span>
+                <span class="operation"><p>5156165</p></span>
+            </div>
+            <div class="back">
+                <div class="key">
+                    <button class="kbrd" id="C">C</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="+-">±</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="%">% </button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="/">÷</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="cha">*</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="min">-</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="add">+</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="dot">.</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="equals">=</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">1</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">2</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">3</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">4</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">5</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">6</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">7</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">8</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">9</button>
+                </div>
+                <div class="key">
+                    <button class="kbrd" id="num">0</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+
+</body>
+
+</body>
+<script>
+    let keys = document.querySelectorAll(".key");
+
+    let screen = document.getElementById("screen");
+
+    for (const iterator of keys) {
+        iterator.addEventListener("click", addToScreen);
+    }
+
+    function addToScreen(event) {
+
+
+        var btn arget.innerHTML;
+        screen.value = btn;
+
+
+
+    }
+
+
+
+
+
+
+    document.addEventListener("keydown", keyboard);
+
+    function keyboard(event) {
+        if (event.key == "Enter") {
+
+        }
+
+
+    }
+
+
+    //let prueba = document.getElementById("screen")
+    //prueba.textContent = prueba.textContent + ""
+
+    // Entradas de teclado event.key &&  event.controlKey
+    // Error = alert("Syntax ERROR") + scrren.value=0;
+</script>
+
+
+
+</html>

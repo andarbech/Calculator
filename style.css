@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Gothan Rounded, sans-serif;
+    font-weight: normal;
+}
+
+.calc {
+    padding: 100px;
+    margin: 150px;
+    width: 410px;
+    height: auto;
+    background: linear-gradient(to right, #0af, #00ff6c);
+}
+
+.back {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.back>button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.screen1 {
+    grid-column: 1;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.screen1 .previousOperation {
+    color: rgba(39, 11, 11, 0.75);
+    font-size: 0.9rem;
+}
+
+.screen1 .operation {
+    color: rgb(31, 15, 15, 0.9);
+    font-size: 0.7rem;
+}
+
+
+/* Pantalla text-align="right";
